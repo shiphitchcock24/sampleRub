@@ -19,3 +19,11 @@ rvm:
 build:
   ci:
     - ruby -v
+integrations:
+  notifications:
+    - integrationName: email
+      type: email
+      recipients:
+        - revathi@shippable.com
+      on_success: always
+      on_start: always
