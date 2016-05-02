@@ -24,4 +24,4 @@ build:
     pull: true  
     
   ci:
-    - ruby -v
+    - ruby -v  
