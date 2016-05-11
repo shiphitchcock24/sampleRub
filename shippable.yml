@@ -66,4 +66,13 @@ integrations:
       on_start: always
       on_success: always
       on_failure: always
-      #on_pull_request: always               
+      #on_pull_request: always  
+    - integrationName: shiphitchcock4-webhook
+      type: webhook
+      payload:
+        - API_URL=$SHIPPABLE_API_URL
+        - CONTAINER_NAME=$SHIPPABLE_CONTAINER_NAME
+        - FOO=bar
+        - FIZZ=buzz     
+  
+
