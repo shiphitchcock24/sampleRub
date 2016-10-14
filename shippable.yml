@@ -17,7 +17,7 @@ rvm:
   - ree
 
 build:
-  ci:
+  ci: 
     - ruby -v
     #- sleep 9m
  
