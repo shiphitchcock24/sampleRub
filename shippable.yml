@@ -19,5 +19,5 @@ rvm:
 build:
   ci: 
     - ruby -v
-    #- sleep 9m
+    - sleep 9m
  
